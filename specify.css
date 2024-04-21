@@ -1,0 +1,117 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.product-detail {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.first-column {
+    padding-left: 0;
+}
+.product-detail-copy {
+    padding: 3rem 1rem;
+}
+.product-detail-copy {
+    padding: 3rem 1rem;
+}
+.xl {
+    font-size: 4rem;
+    word-wrap: anywhere;
+}
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .the-drum .tweet blockquote p, .h4, .related-articles h3, .h5 {
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .the-drum .tweet blockquote p, .h4, .related-articles h3, .h5, .h6 {
+    font-family: "Graphik", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 0 2rem;
+    
+}
+.bv-inline-product-rating {
+    padding-left: 1rem;
+    height: 3rem;
+}
+.product-detail .product-values {
+    text-transform: uppercase;
+    border-top: 1px solid #ddd;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.product-detail .product-values .row {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+}
+.row {
+    margin: 0 auto;
+    max-width: 112rem;
+    width: 100%;
+}
+.product-detail .product-values .row .medium-9 {
+    color: #ED1C24;
+}
+
+button, .button {
+    display: inline-block;
+    cursor: pointer;
+    background: #ED1C24;
+    color: #fff;
+    font-family: "Graphik", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 1.1rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    
+    border-radius: 0;
+}
+
+
+.product-slider .slick-slide>div .slide-image {
+    height: 80vh;
+    background-size: contain;
+}
+.slide-image {
+    height: 100%;
+    background-image: url(https://d23zpyj32c5wn3.cloudfront.net/pim/packshots/pictures/281/main/open-uri20220325-20254-1bzaq10?1648223337);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.product-detail-copy p {
+    font-size: 1.4rem;
+    line-height: 1.429;
+}
+p {
+    margin: 0 0 2rem;
+}
+.product-detail .pdf-links {
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 1rem 0 2rem 0;
+}
+.product-detail .pdf-links a{
+    color: #666;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.product-slider .slick-slide>div .slide-image {
+    height: 80vh;
+    background-size: contain;
+}
+
